@@ -4,6 +4,7 @@ h1 {
     font-family: Verdana;
     font-size: 65px;
 }
+
 p {
     color: black;
     text-align: justify;
@@ -11,34 +12,41 @@ p {
     font-size: 30px;
 
 }
-h2{color: black;
+
+h2 {
+    color: black;
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-weight: 100;
 
 }
+
 h3 {
     color: #17202A;
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
 }
-h4{
+
+h4 {
     color: #17202A;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
 }
-.destacados{
+
+.destacados {
     color: black;
     font-size: x-large;
     font-size: 35px;
 }
+
 .destacar {
     color: #11181f;
     font-weight: bold;
 }
+
 #foto {
     margin-top: 100px;
     margin-bottom: 220px;
@@ -47,9 +55,9 @@ h4{
     border: 3px solid black;
 
 }
+
 body {
     background-image: url(fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
 }
