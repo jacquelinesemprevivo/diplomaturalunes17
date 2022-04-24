@@ -1,0 +1,77 @@
+h1 {
+    color: rgba(86, 101, 115, 1);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 65px;
+    transform: scale(0.9) translate(90px,-10px);
+-webkit-transform: scale(0.9) translate(90px,-10px);
+-moz-transform: scale(0.9) translate(90px,-10px);
+text-shadow: 4px 4px 7px rgba(0,0,0,0.6);
+}
+
+p {
+    color: black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    transform: scale(0.7) translate(-200px,-600px);
+    -webkit-transform: scale(0.7) translate(-200px,-600px);
+    -moz-transform: scale(0.7) translate(-200px,-600px);
+
+}
+
+h2 {
+    color: black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 100;
+    transform: scale(0.7) translate(400px,-900px);
+-webkit-transform: scale(0.7) translate(400px,-900px);
+-moz-transform: scale(0.7) translate(400px,-900px);
+}
+
+
+h3 {
+    color: #17202A;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    transform: scale(0.7) translate(-200px,-600px);
+-webkit-transform: scale(0.7) translate(-200px,-600px);
+-moz-transform: scale(0.7) translate(-200px,-600px);
+}
+
+h4 {
+    color: #17202A;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.destacados {
+    color: black;
+    font-size: x-large;
+    font-size: 35px;
+    transform: scale(0.7) translate(-200px,-600px);
+    -webkit-transform: scale(0.7) translate(-200px,-600px);
+    -moz-transform: scale(0.7) translate(-200px,-600px);
+}
+
+.destacar {
+    color: #11181f;
+    font-weight: bold;
+}
+
+#foto { margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 398px;
+    margin-right: 400px;
+border-radius: 190px 190px 190px 190px;
+-webkit-border-radius: 190px 190px 190px 190px;
+-moz-border-radius: 190px 190px 190px 190px;
+transform: scale(0.7) translate(-650px,-300px);
+-webkit-transform: scale(0.7) translate(-650px,-300px);
+-moz-transform: scale(0.7) translate(-650px,-300px);
+}
+/*font-family: 'Indie Flower', cursive;*/
