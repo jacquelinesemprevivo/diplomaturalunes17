@@ -1,77 +1,138 @@
 h1 {
     color: rgba(86, 101, 115, 1);
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 65px;
-    transform: scale(0.9) translate(90px,-10px);
--webkit-transform: scale(0.9) translate(90px,-10px);
--moz-transform: scale(0.9) translate(90px,-10px);
-text-shadow: 4px 4px 7px rgba(0,0,0,0.6);
-}
-
-p {
-    color: black;
-    text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    transform: scale(0.7) translate(-200px,-600px);
-    -webkit-transform: scale(0.7) translate(-200px,-600px);
-    -moz-transform: scale(0.7) translate(-200px,-600px);
-
+    transform: scale(0.9) translate(90px, -10px);
+    -webkit-transform: scale(0.9) translate(90px, -10px);
+    -moz-transform: scale(0.9) translate(90px, -10px);
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
 }
 
 h2 {
     color: black;
     text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
     font-weight: 100;
-    transform: scale(0.7) translate(400px,-900px);
--webkit-transform: scale(0.7) translate(400px,-900px);
--moz-transform: scale(0.7) translate(400px,-900px);
+    transform: scale(0.7) translate(400px, -930px);
+    -webkit-transform: scale(0.7) translate(400px, -930px);
+    -moz-transform: scale(0.7) translate(400px, -930px);
 }
 
 
 h3 {
-    color: #17202A;
+    color: rgba(86, 101, 115, 1);
     text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 40px;
-    transform: scale(0.7) translate(-200px,-600px);
--webkit-transform: scale(0.7) translate(-200px,-600px);
--moz-transform: scale(0.7) translate(-200px,-600px);
+    transform: scale(0.7) translate(-100px, -700px);
+    -webkit-transform: scale(0.7) translate(-100px, -700px);
+    -moz-transform: scale(0.7) translate(-100px, -700px);
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
+
 }
 
 h4 {
     color: #17202A;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    transform: scale(0.8) translate(-50px, 800px);
+    -webkit-transform: scale(0.8) translate(-50px, 800px);
+    -moz-transform: scale(0.8) translate(-50px, 800px);
+}
+
+h5 {
+    color: #17202A;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    transform: scale(0.8) translate(-50px, 800px);
+    -webkit-transform: scale(0.8) translate(-50px, 800px);
+    -moz-transform: scale(0.8) translate(-50px, 800px);
 }
 
 .destacados {
+    font-family: 'Quicksand', sans-serif;
     color: black;
     font-size: x-large;
     font-size: 35px;
-    transform: scale(0.7) translate(-200px,-600px);
-    -webkit-transform: scale(0.7) translate(-200px,-600px);
-    -moz-transform: scale(0.7) translate(-200px,-600px);
+    transform: scale(0.7) translate(-100px, -700px);
+    -webkit-transform: scale(0.7) translate(-100px, -700px);
+    -moz-transform: scale(0.7) translate(-100px, -700px);
+
+
 }
 
 .destacar {
+    font-family: 'Quicksand', sans-serif;
     color: #11181f;
     font-weight: bold;
 }
 
-#foto { margin-top: 25px;
-    margin-bottom: 25px;
+/*profe como hago para que la foto entre bien en la caja?
+porque me queda un borde blanco abajo*/
+#foto {
+    margin-top: 45px;
+    margin-bottom: 45px;
     margin-left: 398px;
     margin-right: 400px;
-border-radius: 190px 190px 190px 190px;
--webkit-border-radius: 190px 190px 190px 190px;
--moz-border-radius: 190px 190px 190px 190px;
-transform: scale(0.7) translate(-650px,-300px);
--webkit-transform: scale(0.7) translate(-650px,-300px);
--moz-transform: scale(0.7) translate(-650px,-300px);
+    transform: scale(0.6) translate(-800px, -400px);
+    -webkit-transform: scale(0.6) translate(-800px, -400px);
+    -moz-transform: scale(0.6) translate(-800px, -400px);
+    box-shadow: -16px -8px 40px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -16px -8px 40px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -16px -8px 40px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 350px 350px 450px 450px;
+    -webkit-border-radius: 350px 350px 450px 450px;
+    -moz-border-radius: 350px 350px 450px 450px;
+
 }
-/*font-family: 'Indie Flower', cursive;*/
+
+.caja {
+    color: black;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    transform: scale(0.7) translate(-100px, -780px);
+    -webkit-transform: scale(0.7) translate(-100px, -780px);
+    -moz-transform: scale(0.7) translate(-100px, -780px);
+    column-count: 2;
+    column-gap: 70px;
+    column-rule: 1px solid #000000;
+}
+
+.caja p {
+    margin: 0%;
+}
+
+.subtitulo {
+    color: rgba(86, 101, 115, 1);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    transform: scale(0.7) translate(-100px, -750px);
+    -webkit-transform: scale(0.7) translate(-100px, -750px);
+    -moz-transform: scale(0.7) translate(-100px, -750px);
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
+}
+
+.email {
+    color: #17202A;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 60px;
+    transform: scale(0.9) translate(-50px, 800px);
+    -webkit-transform: scale(0.9) translate(-50px, 800px);
+    -moz-transform: scale(0.9) translate(-50px, 800px);
+
+}
+
+body {
+    background-image: url(fondo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*font-family: 'Quicksand', sans-serif;*/
