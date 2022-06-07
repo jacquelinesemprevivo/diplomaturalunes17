@@ -1,0 +1,55 @@
+.contenedor {
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    border: 2px solid black;
+    position: center;
+}
+
+.item:first-child {
+    background-color: red;
+    color: white;
+    width: 50%;
+    height: 200px;
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item:nth-child(even) {
+    background-color: blue;
+    color: white;
+    width: 50%;
+    height: 200px;
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item:last-child {
+    background-color: green;
+    color: white;
+    width: 50%;
+    height: 200px;
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: blueviolet;
+}
