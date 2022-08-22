@@ -1,0 +1,119 @@
+/* font-family: 'Open Sans', sans-serif; */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header{
+    background-color: rgb(111, 180, 111);
+    padding: 5px;
+}
+header h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    bottom: 45px;
+}
+nav{
+    background-color: rgb(185, 184, 184);
+    margin-bottom: 20px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+    font-size: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 4px 10px;
+    display: block;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: rgb(22, 21, 21);
+}
+
+footer{
+    background-color: rgb(230, 225, 225);
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+.holder {
+    max-width: 960px;
+    margin: 25px;
+}
+/* home */
+h2{
+    color:  rgb(111, 180, 111);
+     font-weight: 400;
+     margin-left: 20px;
+}
+p {
+    margin-left: 20px;
+}
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+
+}
+.bienvenidos p {
+    font-size: 20px;
+    background-color: rgb(230, 225, 225);
+}
+.testimonio {
+    width: 25%;
+    padding: 16px;
+    background-color: rgb(230, 225, 225);
+
+}
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.testimonio.cita {font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+    
+
+}
+.testimonio.autor {
+font-size: 10px;
+text-align: center;
+font-display: block;
+margin: 12px 0;
+}
+
+/* quiensoy */
+h3{
+    color:  rgb(111, 180, 111);
+     font-weight: 800;
+     margin-left: 20px;
+}
+h4{
+    color:  rgb(111, 180, 111);
+     font-weight: 700;
+     margin-left: 20px;
+}
+.licenciada {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+
+}
