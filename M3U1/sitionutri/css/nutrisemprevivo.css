@@ -4,11 +4,13 @@ body {
     font-size: 16px;
     line-height: 20px;
 }
-header{
+
+header {
     background-color: rgb(111, 180, 111);
     padding: 5px;
 }
-header h1{
+
+header h1 {
     color: white;
     font-size: 50px;
     font-weight: 100;
@@ -17,11 +19,13 @@ header h1{
     position: relative;
     margin-left: 20px;
     bottom: 45px;
-}
-nav{
+    }
+
+nav {
     background-color: rgb(185, 184, 184);
     margin-bottom: 20px;
 }
+
 nav ul {
     list-style: none;
     margin: 0;
@@ -33,6 +37,7 @@ nav ul li {
     flex-grow: 1;
     font-size: 20px;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -40,11 +45,12 @@ nav ul li a {
     display: block;
     text-align: center;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     background-color: rgb(22, 21, 21);
 }
 
-footer{
+footer {
     background-color: rgb(230, 225, 225);
     clear: both;
     color: #333;
@@ -52,68 +58,210 @@ footer{
     padding: 50px 0;
     margin-top: 20px;
 }
+
 .holder {
     max-width: 960px;
-    margin: 25px;
+    margin: 0 auto;
 }
+
 /* home */
-h2{
-    color:  rgb(111, 180, 111);
-     font-weight: 400;
-     margin-left: 20px;
-}
-p {
+
+h2 {
+    color: rgb(111, 180, 111);
+    font-weight: 400;
     margin-left: 20px;
 }
+
 .bienvenidos {
     width: 75%;
     padding-right: 10px;
     box-sizing: border-box;
 
 }
+
 .bienvenidos p {
     font-size: 20px;
-    background-color: rgb(230, 225, 225);
-}
-.testimonio {
-    width: 25%;
-    padding: 16px;
-    background-color: rgb(230, 225, 225);
 
 }
+
+.testimonios {
+    width: 25%;
+}
+
 .columnas {
+    max-width: 960px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 15px;
+
 }
-.testimonio.cita {font-weight: bold;
+
+.testimonio {
+    background-color: rgb(216, 213, 213);
+    padding: 16px;
+}
+
+.testimonio.cita {
+    font-weight: bold;
     font-style: italic;
-    font-size: 22px;
+    box-sizing: border-box;
+    font-size: 15px;
     display: block;
-    
+    text-align: center;
+
 
 }
+
 .testimonio.autor {
-font-size: 10px;
-text-align: center;
-font-display: block;
-margin: 12px 0;
+    box-sizing: border-box;
+    font-size: 8px;
+    text-align: center;
+    display: block;
 }
 
-/* quiensoy */
-h3{
-    color:  rgb(111, 180, 111);
-     font-weight: 800;
-     margin-left: 20px;
-}
-h4{
-    color:  rgb(111, 180, 111);
-     font-weight: 700;
-     margin-left: 20px;
-}
+/* fin de home */
+
+/* inicio de quiensoy */
+
 .licenciada {
     width: 75%;
-    padding-right: 10px;
+    padding: 50px;
     box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    margin: 70px;
+}
+
+.licenciada h3,
+.licenciada h4 {
+    color: rgb(101, 172, 101);
+    font-weight: normal;
+    margin-left: 0;
+}
+
+.licenciada h3 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.licenciada h4 {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.licenciada p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 
 }
+.licenciada img {
+    border-radius: 50%;
+    max-width: 35%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+/* fin de quiensoy */
+
+/* inicio de servicios */
+.servicio {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin:  16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.servicio .info h4 {
+    color: rgb(101, 172, 101);
+    font-weight: 510;
+    font-style: italic;
+    border-bottom: 1px solid rgb(101, 172, 101);
+    padding-bottom: 10px; 
+}
+.servicio .info p {
+    font-size: 16px;
+}
+.servicio img {
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+.servicio:nth-child(even) {
+    flex-direction: row-reverse;
+}
+/* fin de servicios */
+/* inicio galeria */
+.galeria {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.galeria img {
+    width: 25%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+/* fin galeria */
+
+/* inicio contacto */
+.holder .contacto {
+    display: flex;
+    gap: 24px;
+}
+.contacto div {
+    width: 100%;
+}
+.datos p {
+    font-size: 15px;
+}
+.datos ul li {
+    font-size: 14px;
+}
+.formulario p {
+display: flex;
+}
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+.formulario p label {
+    min-width: 80px;
+    align-items: center;
+display: flex;
+}
+.formulario input[type="submit"] {
+    background-color: #547056;
+    box-shadow: 0 0 10px #ccc;
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.formulario input[type="submit"]:hover {
+    background-color: #4caf62;
+}
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+/* fin contacto */
